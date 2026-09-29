@@ -1,10 +1,10 @@
 #!/bin/bash
 # One-line installer for the kimi-code status line + TUI preferences.
 # Usage:
-#   bash -c "$(curl -fsSL https://raw.githubusercontent.com/darkClaw921/kimi-code-setup/main/install.sh)"
+#   bash -c "$(curl -fsSL https://raw.githubusercontent.com/darkClaw921/env/main/kimi-code/install.sh)"
 set -euo pipefail
 
-REPO_RAW="https://raw.githubusercontent.com/darkClaw921/kimi-code-setup/main"
+REPO_RAW="https://raw.githubusercontent.com/darkClaw921/env/main/kimi-code"
 KIMI_HOME="${KIMI_CODE_HOME:-$HOME/.kimi-code}"
 
 echo "-> Installing kimi-code status line into $KIMI_HOME"
