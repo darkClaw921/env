@@ -1,0 +1,276 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx vite build:*)",
+      "Bash(chmod:*)",
+      "Bash(wc:*)",
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(xargs:*)",
+      "Bash(docker compose:*)",
+      "Bash(docker exec:*)",
+      "Bash(bd ready:*)",
+      "Bash(npm run build:*)",
+      "Bash(docker ps:*)",
+      "Bash(npm run type-check:*)",
+      "Bash(npm run:*)",
+      "Bash(curl:*)",
+      "Bash(docker restart:*)",
+      "Bash(lsof:*)",
+      "Bash(bd create:*)",
+      "Bash(bd dep:*)",
+      "Bash(bd show:*)",
+      "Bash(bd update:*)",
+      "Bash(bd close:*)",
+      "Bash(python:*)",
+      "Bash(python -c:*)",
+      "Bash(grep:*)",
+      "Bash(.venv/bin/python:*)",
+      "Bash(pip install:*)",
+      "mcp__plugin_context7_context7__resolve-library-id",
+      "mcp__plugin_context7_context7__query-docs",
+      "Bash(npx -y tsc:*)",
+      "mcp__ide__getDiagnostics",
+      "Bash(uv:*)",
+      "Bash(echo:*)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Bash(bd onboard:*)",
+      "Bash(bd help:*)",
+      "Bash(bd info:*)",
+      "Bash(bd epic:*)",
+      "WebFetch(domain:docs.github.com)",
+      "Bash(tail:*)",
+      "Bash(echo Pillow not available:*)",
+      "Bash(cd:*)",
+      "Bash(gh repo:*)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "mcp__b24-dev-mcp__bitrix-search",
+      "mcp__b24-dev-mcp__bitrix-method-details",
+      "mcp__b24-dev-mcp__bitrix-article-details",
+      "Bash(python3:*)",
+      "Bash(echo SYNTAX ERROR in $f:*)",
+      "Bash(node:*)",
+      "Bash(git stash:*)",
+      "WebFetch(domain:apidocs.bitrix24.ru)",
+      "Bash(git init:*)",
+      "Bash(echo ===== $id =====:*)",
+      "Bash(/Users/igorgerasimov/claudeWorkspace/ai-manager/backend/.venv/bin/python -c \"import aiosqlite; print\\('aiosqlite ok'\\)\" 2>&1 && /Users/igorgerasimov/claudeWorkspace/ai-manager/backend/.venv/bin/python -c \"import sqlalchemy; print\\('sa', sqlalchemy.__version__\\)\" && /Users/igorgerasimov/claudeWorkspace/ai-manager/backend/.venv/bin/python -c \"import jose; print\\('jose ok'\\)\" 2>&1)",
+      "Bash(/Users/igorgerasimov/claudeWorkspace/ai-manager/backend/.venv/bin/pip list:*)",
+      "Bash(/Users/igorgerasimov/claudeWorkspace/ai-manager/backend/.venv/bin/python:*)",
+      "Bash(/Users/igorgerasimov/claudeWorkspace/ai-manager/backend/.venv/bin/pip install:*)",
+      "Bash(docker-compose logs:*)",
+      "Bash(docker-compose up:*)",
+      "Bash(__NEW_LINE_da61a267fb4f8237__ bd:*)",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(npx create-next-app@15:*)",
+      "Bash(cp:*)",
+      "Bash(npx next:*)",
+      "Bash(npx *)",
+      "Bash(npx shadcn@latest:*)",
+      "Bash(test:*)",
+      "Bash(__NEW_LINE_* bd:*)",
+      "Bash(__NEW_LINE_3bbab5dcad51fff1__ bd:*)",
+      "Bash(sqlite3:*)",
+      "Bash(ADMIN_EMAIL=admin@admin.com ADMIN_PASSWORD=admin123 npx tsx:*)",
+      "mcp__b24-dev-mcp__bitrix-app-development-doc-details",
+      "WebFetch(domain:fonts.google.com)",
+      "mcp__b24-dev-mcp__bitrix-event-details",
+      "Bash(dd:*)",
+      "WebFetch(domain:helpdesk.bitrix24.ru)",
+      "WebFetch(domain:helpdesk.bitrix24.com)",
+      "WebFetch(domain:training.bitrix24.com)",
+      "WebFetch(domain:dev.1c-bitrix.ru)",
+      "WebFetch(domain:saltpro.ru)",
+      "WebFetch(domain:apidocs.bitrix24.com)",
+      "WebFetch(domain:dploit.pro)",
+      "WebFetch(domain:www.intervolga.ru)",
+      "WebFetch(domain:intervolgaru.com)",
+      "Bash(npm ls:*)",
+      "Bash(bd list:*)",
+      "Bash(docker build:*)",
+      "Bash(docker run:*)",
+      "Bash(docker:*)",
+      "Bash(TURBOPACK=0 npx next:*)",
+      "Bash(cat:*)",
+      "Bash(bd prime:*)",
+      "Bash(npm audit:*)",
+      "Bash(APP_SERVER_URL=\"https://example.b24-ai.com\" ./scripts/build.sh zip:*)",
+      "Bash(./scripts/build.sh:*)",
+      "Bash(brew install:*)",
+      "Bash(rsvg-convert:*)",
+      "Bash(head:*)",
+      "Bash(do:*)",
+      "WebFetch(domain:bitrix24.github.io)",
+      "Bash(bd stats:*)",
+      "Bash(bd set:*)",
+      "Bash(bd set-state:*)",
+      "Bash(bd:*)",
+      "Bash(mkdir:*)",
+      "Bash(npx prisma:*)",
+      "Bash(git status:*)",
+      "Bash(cat '/Users/igorgerasimov/claudeWorkspace/create-userfield-button-bitrix24/src/app/\\(dashboard\\)/dashboards/[id]/page.tsx')",
+      "WebFetch(domain:openrouter.ai)",
+      "WebFetch(domain:www.anthropic.com)",
+      "WebFetch(domain:claude.com)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "Bash(ls -la /Users/igorgerasimov/claudeWorkspace/create-userfield-button-bitrix24/src/app/\\\\\\(dashboard\\\\\\)/dashboards/)",
+      "Bash(cat \"/Users/igorgerasimov/claudeWorkspace/create-userfield-button-bitrix24/src/app/\\(dashboard\\)/dashboards/[id]/page.tsx\" | head -150)",
+      "Bash(ls /Users/igorgerasimov/claudeWorkspace/create-userfield-button-bitrix24/src/app/\\\\\\(app\\\\\\)/)",
+      "Bash(ls /Users/igorgerasimov/claudeWorkspace/create-userfield-button-bitrix24/src/app/\\\\\\(dashboard\\\\\\)/)",
+      "Bash(ls /Users/igorgerasimov/claudeWorkspace/create-userfield-button-bitrix24/src/app/\\\\\\(dashboard\\\\\\)/events/)",
+      "Bash(ls /Users/igorgerasimov/claudeWorkspace/create-userfield-button-bitrix24/src/app/\\\\\\(dashboard\\\\\\)/events/\\\\[id\\\\]/)",
+      "Bash(ls /Users/igorgerasimov/claudeWorkspace/create-userfield-button-bitrix24/src/app/\\\\\\(dashboard\\\\\\)/automations/ 2>&1)",
+      "Bash(ls -la \"/Users/igorgerasimov/claudeWorkspace/create-userfield-button-bitrix24/src/app/\\(dashboard\\)/dashboards/new/\")",
+      "Bash(cat \"/Users/igorgerasimov/claudeWorkspace/create-userfield-button-bitrix24/src/app/\\(dashboard\\)/dashboards/new/page.tsx\" | head -100)",
+      "Bash(wc -l \"/Users/igorgerasimov/claudeWorkspace/create-userfield-button-bitrix24/src/app/\\(dashboard\\)/dashboards/new/page.tsx\")",
+      "Bash(cat \"/Users/igorgerasimov/claudeWorkspace/create-userfield-button-bitrix24/src/app/\\(dashboard\\)/dashboards/new/page.tsx\" | tail -150)",
+      "Bash(cat \"/Users/igorgerasimov/claudeWorkspace/create-userfield-button-bitrix24/src/app/\\(dashboard\\)/dashboards/new/page.tsx\" | grep -A 30 \"handleGenerate\")",
+      "Bash(find /Users/igorgerasimov/claudeWorkspace/create-userfield-button-bitrix24/src/app/'\\(dashboard\\)'/dashboards -type f -name \"*.tsx\" | sort)",
+      "Bash(pip3 install:*)",
+      "Bash(ls -la /Users/igorgerasimov/claudeWorkspace/create-userfield-button-bitrix24/src/app/\\\\\\(dashboard\\\\\\))",
+      "Bash(ls -la /Users/igorgerasimov/claudeWorkspace/create-userfield-button-bitrix24/src/app/\\\\\\(dashboard\\\\\\)/)",
+      "Bash(ls -laR /Users/igorgerasimov/claudeWorkspace/create-userfield-button-bitrix24/src/app/\\\\\\(dashboard\\\\\\)/buttons/)",
+      "Bash(ls -la /Users/igorgerasimov/claudeWorkspace/create-userfield-button-bitrix24/src/app/\\\\\\(dashboard\\\\\\)/admin/)",
+      "Bash(ls -laR /Users/igorgerasimov/claudeWorkspace/create-userfield-button-bitrix24/src/app/\\\\\\(dashboard\\\\\\)/automations/)",
+      "Bash(ls /Users/igorgerasimov/claudeWorkspace/create-userfield-button-bitrix24/src/app/\\\\\\(dashboard\\\\\\)/admin/)",
+      "Bash(DATABASE_URL=\"file:./prisma/dev.db\" npx prisma db push 2>&1)",
+      "Bash(git checkout:*)",
+      "Bash(ls *)",
+      "Bash(node -e \"require\\(''./src/lib/llm/dashboard-prompts.ts''\\)\")",
+      "Bash(cat /Users/igorgerasimov/claudeWorkspace/create-userfield-button-bitrix24/src/app/\\\\\\(dashboard\\\\\\)/buttons/page.tsx)",
+      "Bash(ls /Users/igorgerasimov/claudeWorkspace/create-userfield-button-bitrix24/src/app/\\\\\\(dashboard\\\\\\)/sites/)",
+      "Bash(for id:*)",
+      "Bash(done)",
+      "Bash(arhit arch:*)",
+      "Bash(arhit analyze:*)",
+      "Bash(arhit doc:*)",
+      "Bash(git *)",
+      "Bash(METRICS_TOKEN=test GRAFANA_ADMIN_PASSWORD=test NEXT_PUBLIC_APP_URL=test docker compose config --quiet)",
+      "Bash(DATABASE_URL=\"file:./dev.db\" npx prisma migrate dev --name tokenusage_kind_cost)",
+      "Bash(DATABASE_URL=\"file:./dev.db\" npx prisma db push --skip-generate)",
+      "Bash(DATABASE_URL=\"file:./dev.db\" npx prisma db push --url=\"file:./prisma/dev.db\")",
+      "Bash(DATABASE_URL=\"file:./dev.db\" npx prisma generate)",
+      "mcp__pencil"
+    ],
+    "defaultMode": "auto"
+  },
+  "hooks": {
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "~/.claude/hooks/claude-notify-hook.sh"
+          }
+        ]
+      }
+    ],
+    "PermissionRequest": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "~/.claude/hooks/claude-permission-hook.sh",
+            "timeout": 135
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "~/.claude/hooks/claude-notify-hook.sh"
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"$HOME/.claude/hooks/hourglyph.sh\" stop",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "~/.claude/hooks/claude-notify-hook.sh"
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"$HOME/.claude/hooks/hourglyph.sh\" message",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"$HOME/.claude/hooks/hourglyph.sh\" session",
+            "async": true
+          }
+        ]
+      }
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/statusline.sh"
+  },
+  "enabledPlugins": {
+    "frontend-design@claude-code-plugins": true,
+    "frontend-design@claude-plugins-official": true,
+    "swift-lsp@claude-plugins-official": true
+  },
+  "extraKnownMarketplaces": {
+    "caveman": {
+      "source": {
+        "source": "github",
+        "repo": "JuliusBrussee/caveman"
+      }
+    },
+    "omc": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/Yeachan-Heo/oh-my-claudecode.git"
+      }
+    }
+  },
+  "language": "русский",
+  "effortLevel": "medium",
+  "modelSettings": {
+    "claude-sonnet-5": {
+      "effortLevel": "medium"
+    },
+    "claude-fable-5-1": {
+      "effortLevel": "high"
+    }
+  },
+  "awaySummaryEnabled": false,
+  "tui": "fullscreen",
+  "skipWorkflowUsageWarning": true,
+  "theme": "light-ansi",
+  "skipAutoPermissionPrompt": true,
+  "voiceEnabled": false
+}

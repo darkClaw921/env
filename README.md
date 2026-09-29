@@ -8,6 +8,7 @@ self-contained: its own files and a one-line installer where applicable.
 | Directory      | Tool                                   | Install |
 | -------------- | -------------------------------------- | ------- |
 | `kimi-code/`   | Kimi Code CLI status line + TUI prefs  | `bash -c "$(curl -fsSL https://raw.githubusercontent.com/darkClaw921/env/main/kimi-code/install.sh)"` |
+| `claude/`      | Claude Code statusline, hooks, settings| `bash -c "$(curl -fsSL https://raw.githubusercontent.com/darkClaw921/env/main/claude/install.sh)"` |
 
 ## Convention
 
