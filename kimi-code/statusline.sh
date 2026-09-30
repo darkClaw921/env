@@ -26,12 +26,28 @@ CLIENT_ID="17e5f671-d194-4dfb-9706-5516cb48c098"
 CACHE_TTL=60
 
 # --- fetch quota in the background and write the cache ---
+# kimi kills the status line command (and its whole process group) after 300ms;
+# a SIGKILLed fetcher would leave the lock behind forever, so stale locks are stolen.
 fetch_quota() {
   mkdir -p "$CACHE_DIR" 2>/dev/null
   if ! mkdir "$FETCH_LOCK" 2>/dev/null; then
-    return 0   # another fetcher is already running
+    NOW_TS=$(date +%s)
+    LOCK_TS=$NOW_TS
+    if [ -f "$FETCH_LOCK/started" ]; then
+      LOCK_TS=$(cat "$FETCH_LOCK/started" 2>/dev/null || echo 0)
+    else
+      LOCK_TS=$(stat -f %m "$FETCH_LOCK" 2>/dev/null || echo 0)
+    fi
+    if [ $((NOW_TS - LOCK_TS)) -gt 120 ]; then
+      rm -rf "$FETCH_LOCK"
+    else
+      return 0   # another fetcher is genuinely running
+    fi
+    mkdir "$FETCH_LOCK" 2>/dev/null || return 0
   fi
   (
+    trap 'rm -rf "$FETCH_LOCK"' EXIT
+    date +%s > "$FETCH_LOCK/started"
     TOKEN=$(python3 - "$CRED_FILE" <<'PY'
 import json, sys, time
 try:
